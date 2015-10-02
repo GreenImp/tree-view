@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Simple checkbox enabled HTML tree view",
   "main": [
-    "tree-view.js"
+    "dist/js/tree-view.min.js"
   ],
   "dependencies": {
     "jquery": "*"

@@ -1,0 +1,42 @@
+/* ==========================================================================
+ * Tree View styles
+ * ========================================================================== */
+
+.tree-view{
+  [data-tree-view-handle]{
+    display: inline-block;
+    font-size: .8em;
+    cursor: pointer;
+  }
+
+  ul{
+    list-style: none;
+
+    li{
+      &:hover{
+        background-color: rgba(255, 0, 0, .2);
+      }
+
+      label{
+        display: inline-block;
+
+        &:hover{
+          background-color: rgba(255, 0, 0, .2);
+        }
+      }
+
+
+      &.tree-view-closed{
+        > ul{
+          display: none;
+        }
+      }
+
+      &.tree-view-open{
+        > [data-tree-view-handle]{
+          transform: rotate(90deg);
+        }
+      }
+    }
+  }
+}
