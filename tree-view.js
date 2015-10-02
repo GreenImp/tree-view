@@ -1,9 +1,11 @@
-
-/* ==========================================================================
- * Treeview component
- * ========================================================================== */
-
-;(function ($, F, window, document, undefined){
+/**
+ * A JS hierarchy tree viewer that works with checkboxes
+ *
+ * @version v0.0.1
+ * @author GreenImp - greenimp.co.uk
+ * @link https://github.com/GreenImp/tree-view
+ */
+;(function ($, window, document, undefined){
   "use strict";
 
   /**
