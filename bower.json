@@ -1,0 +1,28 @@
+{
+  "name": "tree-view",
+  "version": "0.0.1",
+  "description": "Simple checkbox enabled HTML tree view",
+  "main": [
+    "tree-view.js"
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "devDependencies": {},
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "tree",
+    "checkbox"
+  ],
+  "authors": [
+    "GreenImp <info@greenimp.co.uk>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
